@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "garnd",
+    "slug": "garnd",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -9,13 +9,15 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.kanzashi.garnd"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.kanzashi.garnd"
     },
     "web": {
       "bundler": "metro",
@@ -36,6 +38,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d2920c8b-25cb-49c8-aa37-e181156ec3b1"
+      }
+    },
+    "owner": "kanzashi",
+    "updates": {
+      "url": "https://u.expo.dev/d2920c8b-25cb-49c8-aa37-e181156ec3b1"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
